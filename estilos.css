@@ -1,0 +1,138 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Playfair Display', serif;
+}
+
+
+/*IMAGEN*/
+body{
+   background-image: url(img/megas.jpg);
+   background-size: cover;
+   object-fit: cover;
+   background-repeat: no-repeat;
+
+}
+
+.nav{
+    flex-wrap: wrap;
+    display: flex;
+}
+/*LOGO*/
+h1{
+    color:rgb(207, 147, 212);
+    font-size: 45px;
+    padding: 5px 0px 5px 5px;
+
+}
+
+ li{
+    list-style: none;
+   
+}
+
+.menuprincipal{  
+    flex-wrap: wrap;
+    display: flex;
+   font-size: 15px;
+   
+}
+
+.menuprincipal li a{
+    padding: 15px 10px;
+    color:rgb(207, 147, 212);
+    text-decoration: none;
+    
+
+}
+
+/*LINKS*/
+.nono{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: #00000057;
+}
+
+
+
+
+
+
+
+.cart__container{
+    color: blue;
+    width: 350px;
+    margin: 15px;
+
+}
+
+.cart{
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*article>p{
+    color: blue;
+}
+article>footer{
+    color: blueviolet;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.cards{
+    position: relative;
+    width: 450px;
+    height: 400px;
+    background: white;
+    border-radius: 5px;
+    display: none;
+}
+
+.cards .head{
+    height: 125px;
+    width: 100px;
+    position:relative;
+}
+.cards .head .img{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    padding:5%;
+    background:  rgb(173, 129, 213);
+    bottom: -30%;
+
+    
+}
+.cards .head .img img{
+width: 150px;
+height: 150px;
+border-radius:0px;
+object-fit: cover;
+}
+*/
