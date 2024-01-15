@@ -65,22 +65,39 @@ h1{
 
 
 .cart__container{
-    color: blue;
+    color:#0a0908;
     width: 350px;
     margin: 15px;
-
+    background-color: #e3ddc8;
+    
 }
 
 .cart{
    flex-wrap: wrap;
    display: flex;
    justify-content: center;
+   
+}
+ .img{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 20px 0px 20px 0px;
+ }
+H2{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
 }
 
-
-
-
-
+p{
+    padding-left: 15px ;
+    display: flex;
+    justify-content: center;
+}
+.cart__prueba{
+    margin-bottom: 20px;
+}
 
 
 
@@ -103,36 +120,3 @@ article>footer{
 
 
 
-
-/*
-.cards{
-    position: relative;
-    width: 450px;
-    height: 400px;
-    background: white;
-    border-radius: 5px;
-    display: none;
-}
-
-.cards .head{
-    height: 125px;
-    width: 100px;
-    position:relative;
-}
-.cards .head .img{
-    width: 150px;
-    height: 150px;
-    position:absolute;
-    padding:5%;
-    background:  rgb(173, 129, 213);
-    bottom: -30%;
-
-    
-}
-.cards .head .img img{
-width: 150px;
-height: 150px;
-border-radius:0px;
-object-fit: cover;
-}
-*/
