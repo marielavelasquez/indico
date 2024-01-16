@@ -8,11 +8,7 @@ font-family: 'Playfair Display', serif;
 
 /*IMAGEN*/
 body{
-   background-image: url(img/megas.jpg);
-   background-size: cover;
-   object-fit: cover;
-   background-repeat: no-repeat;
-
+   background-color: #E1E1E1;
 }
 
 .nav{
@@ -20,11 +16,8 @@ body{
     display: flex;
 }
 /*LOGO*/
-h1{
-    color:rgb(207, 147, 212);
-    font-size: 45px;
-    padding: 5px 0px 5px 5px;
-
+.logo__img{
+width: 250px;
 }
 
  li{
@@ -41,7 +34,7 @@ h1{
 
 .menuprincipal li a{
     padding: 15px 10px;
-    color:rgb(207, 147, 212);
+    color:rgb(0, 0, 0);
     text-decoration: none;
     
 
@@ -55,7 +48,8 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-   background-color: #00000057;
+    background-color: #cdc2b7;
+    margin-top: 50px;
 }
 
 
@@ -68,7 +62,7 @@ h1{
     color:#0a0908;
     width: 350px;
     margin: 15px;
-    background-color: #e3ddc8;
+    background-color:#F1EFEA
     
 }
 
