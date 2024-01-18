@@ -34,7 +34,7 @@ width: 250px;
 
 .menuprincipal li a{
     padding: 15px 10px;
-    color:rgb(0, 0, 0);
+    color:white;
     text-decoration: none;
     
 
@@ -45,11 +45,18 @@ width: 250px;
     display: none;
 }
 .container{
+   background-image: url(img/salad1.jpg);
+   height: 100vh;
+   width: 100vw;
+   background-repeat: no-repeat;
+
+}
+.container__inicio{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #cdc2b7;
-    margin-top: 50px;
+    height: 150px;
+    
 }
 
 
@@ -62,7 +69,7 @@ width: 250px;
     color:#0a0908;
     width: 350px;
     margin: 15px;
-    background-color:#F1EFEA
+    background-color:#A0A493;
     
 }
 
@@ -93,7 +100,10 @@ p{
     margin-bottom: 20px;
 }
 
-
+.img__container{
+    background-color: aquamarine;
+    
+}
 
 
 
