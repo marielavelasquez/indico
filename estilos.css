@@ -6,20 +6,26 @@ font-family: 'Playfair Display', serif;
 }
 
 
-/*IMAGEN*/
+/*FONDO*/
 body{
    background-color: #E1E1E1;
 }
 
+/* TODO EL CONTENIDO */
+
 .nav{
     flex-wrap: wrap;
     display: flex;
+    
 }
-/*LOGO*/
+/*PRIMER LOGO*/
+
 .logo__img{
 width: 250px;
 }
 
+
+/* PARTE DEL MENU */
  li{
     list-style: none;
    
@@ -36,41 +42,50 @@ width: 250px;
     padding: 15px 10px;
     color:white;
     text-decoration: none;
-    
-
 }
 
 /*LINKS*/
+
 .nono{
     display: none;
 }
-.container{
+
+
+/* MENÚ - FONDO IMG*/
+
+.container__logo__menu{
    background-image: url(img/salad1.jpg);
    height: 100vh;
-   width: 100vw;
    background-repeat: no-repeat;
 
 }
-.container__inicio{
+.container__menu__inicio{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 150px;
-    
+    background-color: #0a090860;
+}
+
+/*LOGO CENTRAL*/
+
+.logo__central{
+    text-align: center;
+    justify-content: center;
+    background-color: #0a090860;
+    height: 100vh;
 }
 
 
 
-
-
-
+/*CARTAS*/
 
 .cart__container{
     color:#0a0908;
     width: 350px;
     margin: 15px;
     background-color:#A0A493;
-    
+    margin-top: 500px;
 }
 
 .cart{
@@ -96,14 +111,11 @@ p{
     display: flex;
     justify-content: center;
 }
-.cart__prueba{
-    margin-bottom: 20px;
-}
 
-.img__container{
-    background-color: aquamarine;
-    
-}
+
+
+
+
 
 
 
