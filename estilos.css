@@ -8,7 +8,7 @@ font-family: 'Playfair Display', serif;
 
 /*FONDO*/
 body{
-   background-color: #E1E1E1;
+background-color: #69927a45;
 }
 
 /* TODO EL CONTENIDO */
@@ -18,6 +18,45 @@ body{
     display: flex;
     
 }
+
+/* MENÚ - FONDO IMG*/
+
+.container__logo__menu{
+    background-image: url(img/salad1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+ }
+ .container__menu__inicio{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 150px;
+     background-color: #0a090860;
+ } 
+
+ /*LOGO CENTRAL*/
+
+
+.logo__central {
+    background-color: #0a090860;
+    height: calc(100vh - 150px);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo__letra {
+   border: 2px solid #74b08d;
+   }
+
+.logo__central h1{
+color: #E1E1E1;
+}
+.logo__central p{
+    color: aliceblue;
+}
+
 /*PRIMER LOGO*/
 
 .logo__img{
@@ -51,54 +90,38 @@ width: 250px;
 }
 
 
-/* MENÚ - FONDO IMG*/
-
-.container__logo__menu{
-   background-image: url(img/salad1.jpg);
-   height: 100vh;
-   background-repeat: no-repeat;
-
-}
-.container__menu__inicio{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 150px;
-    background-color: #0a090860;
-}
-
-/*LOGO CENTRAL*/
-
-.logo__central{
-    text-align: center;
-    justify-content: center;
-    background-color: #0a090860;
-    height: 100vh;
-}
 
 
 
-/*CARTAS*/
+/*CARTAS*//*CARTAS*//*CARTAS*//*CARTAS*//*CARTAS*//*CARTAS*/
 
 .cart__container{
-    color:#0a0908;
     width: 350px;
     margin: 15px;
-    background-color:#A0A493;
-    margin-top: 500px;
+    margin-top: 100px;
+    
+}
+
+.cart__container h2{
+margin-top: 10px;
+}
+
+.cart__container {
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.2);
 }
 
 .cart{
    flex-wrap: wrap;
    display: flex;
    justify-content: center;
+   color: rgb(0, 0, 0);
    
 }
- .img{
+ .img__platos{
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
-     margin: 20px 0px 20px 0px;
+   margin-top: 5px;
  }
 H2{
     justify-content: center;
@@ -112,10 +135,13 @@ p{
     justify-content: center;
 }
 
+.informacion{
+    margin-top: 15px;
+}
 
-
-
-
+.description p{
+margin: 15px 0px 20px;
+}
 
 
 
@@ -129,8 +155,22 @@ article>footer{
 
 
 
+@media (width<400px) {
+    nav{
+        display: none;
+        
+    }
+    .luu{
+        display: block;
+    }
+}
 
+@media (width>400px) {
 
+    .luu{
+        display: none;
+    }
+}
 
 
 
