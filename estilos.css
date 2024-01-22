@@ -8,7 +8,7 @@ font-family: 'Playfair Display', serif;
 
 /*FONDO*/
 body{
-background-color: #69927a45;
+background-color:#ffffff;
 }
 
 /* TODO EL CONTENIDO */
@@ -32,29 +32,29 @@ background-color: #69927a45;
      justify-content: space-around;
      align-items: center;
      height: 150px;
-     background-color: #0a090860;
+     background-color: rgba(10, 9, 8, 0.376);
  } 
 
  /*LOGO CENTRAL*/
 
 
 .logo__central {
-    background-color: #0a090860;
+    background-color: rgba(10, 9, 8, 0.376);
     height: calc(100vh - 150px);
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.logo__letra {
+.logo__container {
    border: 2px solid #74b08d;
+   padding: 25px;
+   color: #e1e1e1;
    }
-
-.logo__central h1{
-color: #E1E1E1;
-}
+   
 .logo__central p{
-    color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 /*PRIMER LOGO*/
@@ -99,8 +99,8 @@ width: 250px;
     width: 350px;
     margin: 15px;
     margin-top: 100px;
-    border-radius: 10px ;
-   
+   background-color:#ffffff;
+   border-radius: 10px 10px 0px 0px;
 }
 
 .cart__container h2{
@@ -115,7 +115,7 @@ margin-top: 10px;
    flex-wrap: wrap;
    display: flex;
    justify-content: center;
-   color: rgb(0, 0, 0);
+   color: #000000;
    
 }
  .img__platos{
@@ -139,12 +139,27 @@ H2{
     margin: 20px ;
 }
 
+/*BOTON*//*BOTON*//*BOTON*//*BOTON*/
+
 button{
-    color: #69927a45;
-    background-color: #E1E1E1;
+    color: #000000;
+    background-color: #e5e7eb ;
     border:none;
-    margin: 20px;
+    padding: 5px 10px; 
+    /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); */
 }
+button:hover{
+ box-shadow: 5px 5px 20px rgba(1, 2, 1, 0.4);
+}
+
+.price{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-top: 10px;
+
+}
+
 
 
 
